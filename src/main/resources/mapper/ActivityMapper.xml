@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huyg.autodemo.api.mapper.ActivityMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.huyg.autodemo.api.entity.Activity">
+        <result column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="content" property="content" />
+        <result column="address" property="address" />
+        <result column="time_start" property="timeStart" />
+        <result column="time_end" property="timeEnd" />
+        <result column="image" property="image" />
+        <result column="people_max" property="peopleMax" />
+        <result column="people_count" property="peopleCount" />
+        <result column="visible" property="visible" />
+        <result column="activity_url" property="activityUrl" />
+    </resultMap>
+
+</mapper>
